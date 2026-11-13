@@ -17,12 +17,19 @@ outcome logging that feeds back into the rules.
 | | |
 |---|---|
 | Applications submitted in the first 11 days | **87** (Nov 3–13, 2026) |
-| Busiest single day | 22 submitted (Nov 12); 17 on Nov 13 across three runs |
+| Busiest single day | 22 submitted (Nov 12, across two runs that day); 17 on Nov 13 across three runs |
 | First run | 33 submitted in ~3 hours, parallel batches of ~8 |
 | Verification | Every submission confirmed on the employer's page **and** matched to exactly one email receipt before it counts |
 | Money spent | **$0** |
 | Decisions recorded against their scores | 10 (nine employer decisions — passes or filled roles — plus one I closed myself; recorded, not spun) |
 | Applications held for the human | Only where a rule requires it: novel legal attestations, account creation, or a fact outside the record |
+
+One honesty note on that window: the 87 ran under the pipeline's first
+scoring system. The evidence rubric described below was rebuilt on
+November 13 — the last day of the window — and the tracker bands for those
+submissions were assigned retrospectively. Everything submitted since runs
+under the rubric as written, and the monthly calibration review exists
+precisely so claims like these stay checkable.
 
 ## Why it exists
 
@@ -82,7 +89,8 @@ together: [docs/architecture.md](docs/architecture.md)
 
 The job pipeline is the flagship, not the whole fleet. The same rules —
 scheduled runs, silent unless something real happens, writes only inside a
-pre-approved scope, everything else flagged for a human — also run:
+pre-approved scope, everything else flagged for a human — also run, on the agent platform
+rather than the homelab:
 
 - **Inbox triage** every 30 minutes: real conversations and bills surface
   immediately; promotions and routine receipts stay muted.

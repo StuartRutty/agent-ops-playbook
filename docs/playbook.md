@@ -64,10 +64,11 @@ Low-stakes form fields are decided by rule so they never stall a run:
   check the mailbox for the employer's thank-you email before re-entering
   anything. (One tab hung with no confirmation page while the receipt was
   already in the inbox; resubmitting would have duplicated the application.)
-- **Captcha walls** (Lever's, in practice): the operator has granted standing
-  permission to solve captchas on his own applications, in persistent good
-  faith. Some platforms reject even correctly solved challenges — after real
-  effort, the application is logged as captcha-unsolved with its prep work
+- **Interactive verification walls** (one major platform's, in practice):
+  the operator's standing instruction covers completing these verification
+  steps on his own applications, in persistent good faith. Some platforms
+  reject even correctly completed challenges — after real effort, the
+  application is logged as verification-unsolved with its prep work
   preserved for manual submission, and the run moves on. Never burn a run
   looping on one form.
 - **Upload-only cover letters** (Ashby): submit without one rather than

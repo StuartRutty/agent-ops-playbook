@@ -91,16 +91,19 @@ Two operational rules earned their place the hard way:
   employer's thank-you email was already in my inbox. Rule, ever since: **a
   frozen tab doesn't mean failure — check the mailbox before re-entering
   anything.** A duplicate application is worse than a slow one.
-- One major platform's captcha verification rejects even correctly solved
-  challenges from an automated browser. Three fully prepared applications
-  were lost to it in a single run. They're logged as a platform limit, with
+- One major platform's interactive verification rejects even correctly
+  completed challenges from an automated browser. Three fully prepared
+  applications were lost to it in a single run. They're logged as a platform limit, with
   prep work preserved for manual submission — not retried forever, and not
   counted as submitted. Submission means a confirmation page *and* exactly
   one receipt. Nothing else counts.
 
 ## The honest scoreboard
 
-Ten outcomes have come back against its first 87 submissions: nine employer
+Ten outcomes have come back against its first 87 submissions (which ran
+under the pipeline's earlier scoring system — the rubric was rebuilt on the
+last day of that window, and their bands were assigned retrospectively):
+nine employer
 decisions, all passes or filled roles, and one application I closed myself
 after the employer went quiet. I'm not going to dress that up: the
 conversion data is young, and mostly what it says so far is that the top of

@@ -100,7 +100,7 @@ orchestration. The rubric decides, the playbook constrains, the logs prove.
   only through an approval card the operator taps. Account creation, any
   spending, and any novel legal attestation never happen inside a run.
 - **Standing authority is written down.** The standing-answers table and the
-  captcha-solving permission are each dated,
+  standing instruction for interactive verification steps are each dated,
   scoped, and recorded in the playbook. If it isn't written, it isn't
   authorized.
 - **Sub-agents inherit the rules, not just the task.** Scouts and submitters

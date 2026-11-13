@@ -2,7 +2,7 @@
 
 This replaces a 0–100 gut score and an "80+ submits" bar. The old method was
 shown to be unanchored: no weights, no definitions, no calibration — and the
-same role swung 8–12 points between two readers in a single run (82→76 on
+same role swung 6–12 points between two readers in a single run (82→76 on
 one, 86→74 on another). A gate set inside that noise band gates on noise.
 
 The principle: **gate on facts, derive the number from evidence, and let
