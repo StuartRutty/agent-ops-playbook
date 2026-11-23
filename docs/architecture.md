@@ -93,8 +93,8 @@ orchestration. The rubric decides, the playbook constrains, the logs prove.
 
 - **Outward actions are the exception, not the default.** Across the wider
   operation, agents read freely and write narrowly: each workload has a
-  written scope of what it may change (the meal planner may add to a meal
-  plan and a shopping list — nothing else; the job pipeline may submit
+  written scope of what it may change (the inbox triage may label, file, and
+  surface mail — nothing else; the job pipeline may submit
   applications that pass its gates — nothing else).
 - **Approval-gated steps stay gated.** Email verification codes are shared
   only through an approval card the operator taps. Account creation, any

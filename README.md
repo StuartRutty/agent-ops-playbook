@@ -31,6 +31,14 @@ submissions were assigned retrospectively. Everything submitted since runs
 under the rubric as written, and the monthly calibration review exists
 precisely so claims like these stay checkable.
 
+**Update — Nov 23, 2026.** Ten days on: **148 applications tracked** in
+total, with **34 employer decisions recorded against their bands**. The
+pipeline also maintains its own inputs now, under the same rules: the base
+resume was audited and overhauled on Nov 23 (claims re-checked against the
+record, nothing added that isn't evidenced), and the per-role variants are
+built by a companion tool that can only reorder real bullets — see
+[resume-variant-builder](https://github.com/StuartRutty/resume-variant-builder).
+
 ## Why it exists
 
 The first version scored job postings 0–100 by feel and submitted everything
@@ -57,7 +65,10 @@ noise. So the scoring was rebuilt from scratch:
    weights are reviewed monthly against real conversion, and changing them
    requires my sign-off.
 
-Full method: [docs/selection-rubric.md](docs/selection-rubric.md)
+Full method: [docs/selection-rubric.md](docs/selection-rubric.md) ·
+formal methods write-up: [docs/rubric-methods.md](docs/rubric-methods.md)
+
+![The selection pipeline, end to end](docs/pipeline.svg)
 
 ## The operating rules (the short version)
 
@@ -94,10 +105,9 @@ rather than the homelab:
 
 - **Inbox triage** every 30 minutes: real conversations and bills surface
   immediately; promotions and routine receipts stay muted.
-- **A weekly meal-planning pipeline** that reads pantry inventory, plans
-  around perishables and grocery circular deals, and writes the plan and the
-  shopping list — adds only, nothing bought, each run reporting exactly what
-  it wrote.
+- **A morning paper** — a one-page brief (calendar, deliveries, deadlines,
+  weather) rendered nightly as a PDF and delivered before the day starts.
+  It reports the day; it doesn't act on it.
 - **Media curation**: verified (not keyword-matched) collection building for
   a home media server, plus per-movie trivia delivered only when the owner
   personally finishes a film.
