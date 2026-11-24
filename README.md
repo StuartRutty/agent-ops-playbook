@@ -20,7 +20,6 @@ outcome logging that feeds back into the rules.
 | Busiest single day | 33 submitted (Nov 3, the first run); 22 on Nov 12, across two runs that day; 17 on Nov 13 across three runs |
 | First run | 33 submitted in ~3 hours, parallel batches of ~8 |
 | Verification | Every submission confirmed on the employer's page **and** matched to exactly one email receipt before it counts |
-| Money spent | **$0** |
 | Decisions recorded against their scores | 10 (nine employer decisions — passes or filled roles — plus one I closed myself; recorded, not spun) |
 | Applications held for the human | Only where a rule requires it: novel legal attestations, account creation, or a fact outside the record |
 
@@ -89,9 +88,8 @@ formal methods write-up: [docs/rubric-methods.md](docs/rubric-methods.md)
   employer's receipt. This rule exists because of a tab that hung after
   Submit while the confirmation email was already in the inbox — resubmitting
   would have duplicated the application.
-- **$0 and no new accounts.** The pipeline never spends money and never
-  creates an account on my behalf. Account-gated applications are skipped and
-  logged, not forced.
+- **No new accounts.** The pipeline never creates an account on my behalf.
+  Account-gated applications are skipped and logged, not forced.
 
 Full playbook: [docs/playbook.md](docs/playbook.md) · How the pieces fit
 together: [docs/architecture.md](docs/architecture.md)

@@ -9,7 +9,7 @@ systems.*
 For the last two weeks, an agent system I run on my own infrastructure has
 been applying to jobs for me. In its first eleven days: **87
 applications submitted, every one verified against an employer's
-confirmation page and an email receipt, $0 spent.** The first run alone put
+confirmation page and an email receipt.** The first run alone put
 in 33 applications in about three hours.
 
 The volume is the least interesting part. The interesting part is the

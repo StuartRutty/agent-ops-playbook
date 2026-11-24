@@ -40,7 +40,7 @@ Low-stakes form fields are decided by rule so they never stall a run:
   stop; never fudge location.
 - New account creation: never without the operator's explicit approval.
   Account-gated applications are skipped and logged.
-- $0 spending, always.
+- Spending: none without the operator's explicit approval.
 
 ## 3. Salary rules (historically the biggest source of errors)
 
