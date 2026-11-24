@@ -17,7 +17,7 @@ outcome logging that feeds back into the rules.
 | | |
 |---|---|
 | Applications submitted in the first 11 days | **87** (Nov 3–13, 2026) |
-| Busiest single day | 22 submitted (Nov 12, across two runs that day); 17 on Nov 13 across three runs |
+| Busiest single day | 33 submitted (Nov 3, the first run); 22 on Nov 12, across two runs that day; 17 on Nov 13 across three runs |
 | First run | 33 submitted in ~3 hours, parallel batches of ~8 |
 | Verification | Every submission confirmed on the employer's page **and** matched to exactly one email receipt before it counts |
 | Money spent | **$0** |
