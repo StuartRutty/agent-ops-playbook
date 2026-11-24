@@ -20,7 +20,7 @@ Before any scoring occurs, the pipeline checks six binary preconditions against 
 | Gate | Disqualification Condition | Boundary & Exception Rules |
 | :--- | :--- | :--- |
 | **1. Posting Liveness** | No active listing exists on the employer's primary careers board. | Aggregator-only listings (e.g., reposts without an upstream employer URL) fail automatically. |
-| **2. Compensation Floor** | The posted base salary minimum is below $100,000. | Listings that omit a salary range are **not** gated out; they remain eligible and are flagged as unstated in the run report. |
+| **2. Compensation Floor** | The posted base salary minimum is below the operator's configured floor (kept private). | Listings that omit a salary range are **not** gated out; they remain eligible and are flagged as unstated in the run report. |
 | **3. Location** | The role is neither Remote (US-eligible) nor hybrid/on-site in New York City. | Relocation-required roles outside NYC fail immediately. |
 | **4. Management Scope** | The core responsibility is people management (hiring, firing, performance reviews, direct reports). | Target scope is strictly Individual Contributor (IC). The system never applies to people-management roles and never fabricates management history. |
 | **5. Hard Requirements** | The job description mandates a core qualification the candidate factually lacks — such as a statutory license/certification (e.g., PMP, clinical license), regulated-industry domain tenure, or specialized engineering depth not present on the resume (e.g., IAM/SSO systems engineering). | Applies only to requirements marked *required* or *core*. Items listed as *preferred* or *nice to have* do not trigger a gate failure; they proceed to Stage 2 and are scored in the checklist. |
