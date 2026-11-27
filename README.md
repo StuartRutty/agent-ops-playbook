@@ -12,31 +12,22 @@ of what it takes to let agents do consequential, outward-facing work without
 letting them improvise: written rules, an audit trail for every number, and
 outcome logging that feeds back into the rules.
 
-## Results so far (Nov 3–13, 2026)
+## Results so far
 
-| | |
-|---|---|
-| Applications submitted in the first 11 days | **87** (Nov 3–13, 2026) |
-| Busiest single day | 33 submitted (Nov 3, the first run); 22 on Nov 12, across two runs that day; 17 on Nov 13 across three runs |
-| First run | 33 submitted in ~3 hours, parallel batches of ~8 |
-| Verification | Every submission confirmed on the employer's page **and** matched to exactly one email receipt before it counts |
-| Decisions recorded against their scores | 10 (nine employer decisions — passes or filled roles — plus one I closed myself; recorded, not spun) |
-| Applications held for the human | Only where a rule requires it: novel legal attestations, account creation, or a fact outside the record |
-
-One honesty note on that window: the 87 ran under the pipeline's first
-scoring system. The evidence rubric described below was rebuilt on
-November 13 — the last day of the window — and the tracker bands for those
-submissions were assigned retrospectively. Everything submitted since runs
-under the rubric as written, and the monthly calibration review exists
-precisely so claims like these stay checkable.
-
-**Update — Nov 23, 2026.** Ten days on: **148 applications tracked** in
-total, with **34 employer decisions recorded against their bands**. The
-pipeline also maintains its own inputs now, under the same rules: the base
-resume was audited and overhauled on Nov 23 (claims re-checked against the
-record, nothing added that isn't evidenced), and the per-role variants are
-built by a companion tool that can only reorder real bullets — see
+The pipeline has run daily since November 3, 2026. Every submission is
+confirmed on the employer's page and matched to exactly one email receipt
+before it counts, and every employer decision is logged against the band
+that submission carried — the scoring is checked against real outcomes,
+not asserted. Applications hold for the human only where a rule requires
+it: novel legal attestations, account creation, or a fact outside the
+record. The per-role resume variants are built by a companion tool that
+can only reorder real bullets — see
 [resume-variant-builder](https://github.com/StuartRutty/resume-variant-builder).
+
+Running totals are deliberately not published here: a count in a README
+is stale the day it lands and says less than the method does. The method
+and its calibration discipline are in
+[docs/selection-rubric.md](docs/selection-rubric.md).
 
 ## Why it exists
 
